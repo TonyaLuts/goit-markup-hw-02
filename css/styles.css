@@ -27,15 +27,12 @@ body {
 /* ==================== HEADER ==================== */
 
 .logo {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.logo-piece {
   color: var(--acsent-color);
 }
 
@@ -62,6 +59,9 @@ body {
 
 .contacts {
   font-style: normal;
+}
+
+.contact {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -69,14 +69,14 @@ body {
   color: var(--text-color);
 }
 
-.contacts:hover,
-.contacts:focus {
+.contact:hover,
+.contact:focus {
   color: var(--hover-focus-color);
 }
 
-/* ==================== HERO ==================== */
+/* ==================== SECTION HERO ==================== */
 
-.hero {
+.section-hero {
   background-color: var(--background-section);
 }
 
@@ -84,10 +84,12 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
 
 .hero-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -108,6 +110,8 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: var(--title-color);
 }
 
@@ -123,6 +127,20 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+/* ==================== ECTION FEATURES ==================== */
+
+/* ==================== SECTION PROJECTS ==================== */
+
+/* ==================== SECTION TEAM ==================== */
+
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.list-item {
+  background-color: #ffffff;
 }
 
 /* ==================== FOOTER ==================== */
