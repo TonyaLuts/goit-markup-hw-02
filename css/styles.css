@@ -127,6 +127,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 /* ==================== ECTION FEATURES ==================== */
@@ -162,6 +163,7 @@ body {
 /* ==================== filters ==================== */
 
 .filters-btn {
+  font-family: inherit;
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
   cursor: pointer;
